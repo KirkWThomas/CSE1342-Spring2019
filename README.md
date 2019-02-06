@@ -5,3 +5,4 @@ In class coding examples used for CSE1342
 1. `Chapter1/` - I/O and Operators
 2. `Chapter2/` - Variables, Expressions, and Assignment
 3. `Chapter3&4/` - Branches and Loops
+3. `Chapter5/` - User-Defined Functions
