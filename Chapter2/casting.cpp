@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-  int tacos = 10;
-  int people = 4;
-  int quotient = tacos / people;
-  cout << "Tacos / Person w/o casting: " << quotient << endl;
+  
+  int val1 = 900;
+  int val2 = 90000;
 
-  double doubleQuotient = (double)tacos / (double)people;
-  cout << "Tacos / Person w/ casting: " << doubleQuotient << endl;
+  long long int result = (long)val1 * (long)val2;
+  
+  cout << result;
 
   return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include "threeints.h"
+#include <cassert>
 
 using namespace std;
 
@@ -7,8 +8,7 @@ using namespace std;
 
 int main() {
 
-   cout << ThreeIntsSum(5, 10, 20) << endl;
-   cout << ThreeIntsAvg(5, 10, 20) << endl;
+   assert(ThreeIntsSum(5, 10, 20) == 35);
 
    return 0;
 }

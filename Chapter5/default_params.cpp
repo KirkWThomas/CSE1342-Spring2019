@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int add(int x, int y, int z = 0, int a = 0);
+int add(int x, int y = 0, int z, int a = 0);
 
 int main() {
   

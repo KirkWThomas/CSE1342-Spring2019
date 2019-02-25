@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+int fa(int n);
+int fb(int n);
+
 int fa(int n){
   if(n <= 1)
     return 1;

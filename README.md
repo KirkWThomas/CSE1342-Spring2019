@@ -7,3 +7,4 @@ In class coding examples used for CSE1342
 3. `Chapter3&4/` - Branches and Loops
 4. `Chapter5/` - User-Defined Functions
 5. `Chapter6/` - Recursion
+6. `Chapter7/` - File I/O and String Streams

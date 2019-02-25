@@ -3,15 +3,8 @@
 using namespace std;
 
 /** Fix the following **/
-
-void callPrintGreeting() {
-  printGreeting();
-}
-
-// -- move above callPrintGreeting
-void printGreeting() {
-  cout << "Greeting" << endl;
-}
+void printGreeting(int);
+void callPrintGreeting();
 
 int main() {
   
@@ -19,3 +12,12 @@ int main() {
 
   return 0;
 }
+
+void callPrintGreeting() {
+  printGreeting(1);
+}
+
+void printGreeting(int value)  {
+  cout << "Greeting" << endl;
+}
+
