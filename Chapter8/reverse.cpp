@@ -18,7 +18,9 @@ int main() {
 
 void reverse(vector<int> &myVector) {
   for (int i = 0; i < (myVector.size() / 2); ++i) {
-    /* implement swap */    
+    int tempVal = myVector.at(i);
+    myVector.at(i) = myVector.at(myVector.size() - 1 - i);
+    myVector.at(myVector.size() - 1 - i) = tempVal;
   }
 }
 

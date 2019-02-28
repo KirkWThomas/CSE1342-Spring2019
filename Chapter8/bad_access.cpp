@@ -11,11 +11,8 @@ int main() {
    myVector.at(3) = 117; 
    myVector.at(4) = 116; 
 
-   cout << "Try to access " << myVector.at(5) << endl;
+   cout << "Try to access " << myVector[5] << endl;
 
-   // 
-   // int myArray[5] = {0,1,2,3,4};
 
-   // cout << myArray[6];
    return 0;
 }

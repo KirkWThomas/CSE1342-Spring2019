@@ -11,7 +11,7 @@ int main() {
     cout << myArray[i] << endl;
   }
 
-  const int ARRAY_SISE = 5;
+  // const int ARRAY_SIZE = 5;
   // int myArray[ARRAY_SIZE];
   // int myArray[ARRAY_SIZE] = { 1, 2, 3, 4, 5};
 

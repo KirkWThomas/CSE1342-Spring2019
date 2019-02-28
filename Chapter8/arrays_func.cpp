@@ -16,7 +16,9 @@ int main() {
 }
 
 void doubleArray(int array[], int size) {
-  /* Implement double array */
+  for (int i = 0; i < size; i++) {
+    array[i] = array[i] * 2;
+  }
 }
 
 void printArray(int array[], int size) {

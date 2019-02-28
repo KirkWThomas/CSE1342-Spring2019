@@ -9,7 +9,7 @@ int main() {
   vector<string> data;
 
   ifstream inFS;   // Input file stream
-  inFS.open("inputCLRF.txt");
+  inFS.open("inputCLRF.txt"); // \r
 
   while (!inFS.eof()) {
     string tempString;
