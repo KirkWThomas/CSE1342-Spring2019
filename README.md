@@ -10,3 +10,4 @@ In class coding examples used for CSE1342
 6. `Chapter7/` - File I/O and String Streams
 7. `Chapter8/` - STL Arrays / Vectors
 8. `Chapter9/` - Searching / Sorting Algorithms 
+9. `Chapter10/` - Objects and Classes
