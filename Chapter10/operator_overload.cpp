@@ -20,7 +20,7 @@ Employee::Employee(string name, int employeeNum) {
 }
 
 bool Employee::operator==(Employee employee) {
-  return this->employeeNum == employee.employeeNum && this->name == employee.name;
+  return this->name == "Hello World";
 }
 
 int main() {
@@ -32,6 +32,7 @@ int main() {
   } else {
     cout << "Not Equal" << endl;
   }
+
 
   return 0;
 }

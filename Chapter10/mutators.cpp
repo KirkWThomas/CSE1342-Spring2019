@@ -43,6 +43,8 @@ int main() {
   student1.SetName("Erik Gabrielsen");
   student1.SetId(123456);
 
+  int student1Id = student1.GetId();
+
   student1.Print();
   return 0;
 }

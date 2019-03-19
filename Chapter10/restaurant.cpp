@@ -5,7 +5,7 @@ using namespace std;
 
 class Restaurant {                          // Info about a restaurant
    public:
-      void SetName(string restaurantName);  // Sets the restuarant's name
+      void SetName(string restaurantName);
       void SetRating(int userRating);       // Sets the rating (1-5, with 5 best)
       void Print();                         // Prints name and rating on one line
    
