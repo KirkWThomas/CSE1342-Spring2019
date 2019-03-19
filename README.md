@@ -11,3 +11,4 @@ In class coding examples used for CSE1342
 7. `Chapter8/` - STL Arrays / Vectors
 8. `Chapter9/` - Searching / Sorting Algorithms 
 9. `Chapter10/` - Objects and Classes
+10. `Chapter11/` - Pointers and Dynamic Memory Allocation
