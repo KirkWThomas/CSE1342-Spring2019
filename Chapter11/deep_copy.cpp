@@ -29,7 +29,7 @@ int main() {
 
   MyClass * classB = new MyClass(*classA);
 
-  // with shallow copy this will effect classA value as well.
+  // with shallow copy this will effect classA value as
   *(classB->value) = 25;
 
   cout << "Class A value: " << *(classA->value) << endl;
