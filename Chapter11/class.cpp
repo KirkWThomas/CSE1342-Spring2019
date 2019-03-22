@@ -25,11 +25,11 @@ int main() {
    SimpleItem* myItemPtr2 = nullptr;
    
    myItemPtr1 = new SimpleItem;
-   (*myItemPtr1).PrintNums();
+   myItemPtr1->PrintNums();
    cout << endl;
    
    myItemPtr2 = new SimpleItem(8, 9);
-   (*myItemPtr2).PrintNums();
+   myItemPtr2->PrintNums();
    
    return 0;
 }
