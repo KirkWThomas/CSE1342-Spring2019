@@ -12,3 +12,4 @@ In class coding examples used for CSE1342
 8. `Chapter9/` - Searching / Sorting Algorithms 
 9. `Chapter10/` - Objects and Classes
 10. `Chapter11/` - Pointers and Dynamic Memory Allocation
+10. `Chapter12/` - Lists, Stacks, Queues
