@@ -11,7 +11,7 @@ void LinkedList::print(){
     }
 }
 
-void LinkedList::pushBack(int data) {
+void LinkedList::append(int data) {
   Node *node = new Node();
   node->data = data;
   node->next = nullptr;

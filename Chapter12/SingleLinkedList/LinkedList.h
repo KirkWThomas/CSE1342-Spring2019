@@ -10,7 +10,7 @@ class LinkedList {
     Node *tail;
 
     void print();
-    void pushBack(int data);
+    void append(int data);
     void remove();
 };
 

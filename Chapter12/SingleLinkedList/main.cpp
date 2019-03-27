@@ -6,8 +6,8 @@ using namespace std;
 int main() {
   LinkedList *list = new LinkedList();
 
-  list->pushBack(10);
-  list->pushBack(15);
+  list->append(10);
+  list->append(15);
 
   list->print();
 

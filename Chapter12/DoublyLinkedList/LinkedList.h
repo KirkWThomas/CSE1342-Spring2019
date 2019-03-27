@@ -11,8 +11,10 @@ class LinkedList {
 
     void print();
     void prepend(int data);
-    void pushBack(int data);
+    void append(int data);
     void printReverse();
+
+    Node* search(int data);
 };
 
 #endif
