@@ -18,6 +18,7 @@ void Stack::push(int val) {
     cout << "Stack Overflow" << endl;
     return;
   }
+  cout << "Pushing Value: " << val << endl;
   stack[++top] = val;
 }
 
@@ -26,6 +27,7 @@ int Stack::pop() {
     cout << "Stack Underflow" << endl;
     return 0;
   }
+  cout << "Popped Value: " << stack[top - 1] << endl;
   return stack[top--];
 }
 
@@ -37,10 +39,7 @@ int main() {
   stack.push(3);
 
 
-  cout << stack.pop() << endl;
-  cout << stack.pop() << endl;
-  cout << stack.pop() << endl;
-  cout << stack.pop() << endl;
+  stack.pop();
 
   return 0;
 }

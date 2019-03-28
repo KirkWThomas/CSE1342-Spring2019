@@ -12,9 +12,9 @@ int main() {
   list->print();
 
   // delete
-  cout << "\nRemove" << endl;
-  list->remove();
-  list->print();
+  // cout << "\nRemove" << endl;
+  // list->remove();
+  // list->print();
 
   return 0;
 }

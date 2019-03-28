@@ -10,6 +10,7 @@ class Node {
 
 // pass pointer by reference
 void push(Node *&stack, int val) {
+  cout << "Pushing Value: " << val << endl;
   Node *newNode = new Node();
   newNode->data = val;
   newNode->next = stack;
@@ -21,7 +22,7 @@ Node* pop(Node *&stack) {
     cout << "Stack underflow" << endl;
     return nullptr;
   } else {
-    cout << "Popped value: " << stack->data << endl;
+    cout << "Popped Value: " << stack->data << endl;
     Node *top = stack;
     stack = stack->next;
     return top;
@@ -49,6 +50,5 @@ int main() {
   pop(stack);
   pop(stack);
 
-  printStack(stack);
   return 0;
 }
