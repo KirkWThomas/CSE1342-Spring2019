@@ -12,12 +12,12 @@ class Person {
 
 class Student: public Person {
   public: 
-    string studentId;
+    int studentId;
 };
 
 class Professor: public Person {
   public:
-    string facultyId;
+    int facultyId;
 };
 
 int main() {

@@ -6,6 +6,8 @@ using namespace std;
 class Base {
   private: 
     int date;
+  protected: 
+    int protectedData;
   public: 
     string data;
 };
@@ -24,7 +26,8 @@ class ProtectedInheritance: protected Base {
     }
 };
 
-class PrivateInheritance: private Base {
+class PrivateInheritance: 
+ Base {
   public: 
     PrivateInheritance() {
       data = 100;

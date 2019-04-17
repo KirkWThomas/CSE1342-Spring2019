@@ -32,9 +32,8 @@ public:
    };
    
    void PrintItem() {
-      cout << itemName << " " << itemQuantity
-      << " (Expires: " << expirationDate << ")"
-      << endl;
+      GenericItem::PrintItem();
+      cout << " (Expires: " << expirationDate << ")"<< endl;
    };
    
 private:

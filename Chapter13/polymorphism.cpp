@@ -23,7 +23,7 @@ class Person {
 
 class Student: public Person {
   public: 
-    string studentId;
+    int studentId;
 
     // calls base class constructor 
     Student(int studentId, string name, string phoneNumber, int age): Person(name, phoneNumber, age) {
@@ -38,7 +38,7 @@ class Student: public Person {
 
 class Professor: public Person {
   public:
-    string facultyId;
+    int facultyId;
 
     // calls base class constructor 
     Professor(int facultyId, string name, string phoneNumber, int age): Person(name, phoneNumber, age) {
@@ -53,7 +53,6 @@ class Professor: public Person {
 
 int main() {
   Person *person = new Person("Person", "--", 20);
-
   Student *student = new Student(321, "Student", "--", 19);;
   Professor *professor = new Professor(123, "Professor", "--", 40);
 
