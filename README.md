@@ -14,3 +14,4 @@ In class coding examples used for CSE1342
 10. `Chapter11/` - Pointers and Dynamic Memory Allocation
 11. `Chapter12/` - Lists, Stacks, Queues
 12. `Chapter13/` - Inheritance and Polymorphism
+13. `Chapter14/` - Exceptions and Error Handling
