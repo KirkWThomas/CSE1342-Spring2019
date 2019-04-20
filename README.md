@@ -2,15 +2,15 @@
 In class coding examples used for CSE1342
 
 ### Chapters
-1. `Chapter1/` - I/O and Operators
-2. `Chapter2/` - Variables, Expressions, and Assignment
-3. `Chapter3` - Branches
-4. `Chapter4/` - Loops
-5. `Chapter5/` - User-Defined Functions
-6. `Chapter6/` - Recursion
-7. `Chapter7/` - File I/O and String Streams
-8. `Chapter8/` - STL Arrays / Vectors
-9. `Chapter9/` - Searching / Sorting Algorithms 
+01. `Chapter01/` - I/O and Operators
+02. `Chapter02/` - Variables, Expressions, and Assignment
+03. `Chapter03` - Branches
+04. `Chapter04/` - Loops
+05. `Chapter05/` - User-Defined Functions
+06. `Chapter06/` - Recursion
+07. `Chapter07/` - File I/O and String Streams
+08. `Chapter08/` - STL Arrays / Vectors
+09. `Chapter09/` - Searching / Sorting Algorithms 
 10. `Chapter10/` - Objects and Classes
 11. `Chapter11/` - Pointers and Dynamic Memory Allocation
 12. `Chapter12/` - Lists, Stacks, Queues
