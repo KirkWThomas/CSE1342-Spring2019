@@ -26,14 +26,14 @@ int main() {
     cin >> cost;
 
     if (cost < 0) {
-      throw CustomException(1, (char*)"Cost is < 0");
+      throw CustomException(1, (char *)"Cost is < 0");
     }
 
     cout << "How many items did you purchase? ";
     cin >> numItems;
 
     if (numItems < 0) {
-      throw CustomException(2, (char*)"Number of Items is < 0");
+      throw CustomException(2, (char *)"Number of Items is < 0");
     }
 
     cout << "Total Cost: " << cost * numItems << endl;

@@ -61,6 +61,9 @@ int main() {
   people.push_back(student);
   people.push_back(professor);
 
+  string data;
+  data.stoi();
+
   for (int i = 0; i < people.size(); i++) {
     people.at(i)->print();
     cout << endl;
