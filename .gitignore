@@ -1,3 +1,4 @@
 *.out
 highlight.cpp
 /.vscode
+*.DS_Store
