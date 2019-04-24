@@ -21,9 +21,9 @@ class Dog {
     void print() {
       cout << "Dog - " << this->pounds << " lbs" << endl;
     }
-    // friend bool operator> (const Dog& lhs, const Dog& rhs){ 
-    //   return lhs.pounds > rhs.pounds;
-    // }
+    friend bool operator> (const Dog& lhs, const Dog& rhs){ 
+      return lhs.pounds > rhs.pounds;
+    }
 };
 
 int main() {

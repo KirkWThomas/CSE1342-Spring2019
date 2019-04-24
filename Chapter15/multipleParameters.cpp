@@ -9,7 +9,9 @@ void print(T1 val1, T2 val2) {
 }
 
 int main() {
-  print(1, "hello");
+  print(1, 20);
+  print("hello", 20);
+  print(20, "hello");
   
   return 0; 
 }
